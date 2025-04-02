@@ -30,7 +30,7 @@ The [`exchange_outflows.py`](exchange_outflows.py) script demonstrates how to tu
 The strategy integrates with:
 
 - 🏦 Binance API for price data
-- 📊 Unravel Markets API for exchange outflow data
+- 📊 Unravel Markets API for exchange outflow data. Sign up for live access at [unravel.markets](https://unravel.markets)
 
 ## 📄 License
 

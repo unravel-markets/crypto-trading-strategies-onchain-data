@@ -13,7 +13,7 @@ if __name__ == "__main__":
     # call the unravel.markets API to retriece exchange outflow data for BTC between 2022-01-01 and 2024-01-01, with a demo API key
     url = 'https://unravel.markets/api/v1/normalized-series?ticker=BTC&series=exchange_outflow'
     headers = {
-        'X-API-KEY': 'DEMO-KEY'
+        'X-API-KEY': 'DEMO-KEY' # replace with your own API key, sign up at unravel.markets
     }
     response = requests.get(url, headers=headers).json()
     signal = pd.Series(response['data'], index=pd.to_datetime(response['index']))
