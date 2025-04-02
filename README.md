@@ -1,4 +1,4 @@
-# 🚀 Crypto Trading Strategies
+# 🚀 Crypto (Systematic) Trading Strategies using On-chain / Sentiment / Alternative data
 
 A collection of cryptocurrency trading strategies and backtesting tools, focusing on turning alternative / on-chain data into trading systems.
 
