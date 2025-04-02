@@ -1,4 +1,5 @@
 import pandas as pd
+
 def vectorized_backtest(price_series: pd.Series, signal_series: pd.Series, transaction_cost: float = 0.0005) -> pd.DataFrame:
     """
     Perform a vectorized backtest on price and signal series.
