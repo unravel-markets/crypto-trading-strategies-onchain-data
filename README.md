@@ -18,13 +18,7 @@ pip install -r requirements.txt
 
 ### Exchange Outflow Strategy
 
-The `exchange_outflows.py` script demonstrates how to turn exchange outflow data into a trading strategy:
-
-```python
-python exchange_outflows.py
-```
-
-This strategy analyzes exchange outflows to generate trading signals:
+The [`exchange_outflows.py`](exchange_outflows.py) script demonstrates how to turn exchange outflow data into a trading strategy:
 
 - 📤 High outflows might indicate infestor confidence, and reduce the assets available for immediate selling
 - 📥 Low outflows might indicate that crypto assets on exchanges are pilingup

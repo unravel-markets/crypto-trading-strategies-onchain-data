@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 import requests
 
-# Example usage:
 if __name__ == "__main__":
 
     long_only = True
