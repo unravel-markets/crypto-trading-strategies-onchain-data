@@ -1,36 +1,36 @@
-# 🚀 Crypto (Systematic) Trading Strategies using On-chain / Sentiment / Alternative data
+# Active Risk Overlays for Crypto Assets with Predictive Exogenous Risk Factors
 
-A collection of cryptocurrency trading strategies and backtesting tools, focusing on turning alternative / on-chain data into trading systems.
+A collection of strategies, backtesting tools, focusing on turning alternative / on-chain data into predictive risk factors to manage portfolio volatility.
 
-It has:
+It's intended as a sample repository, containing:
 
-- 🔄 Vectorized backtesting function for efficient strategy testing
-- 💰 Basic Transaction cost modeling
-- 📊 Performance metrics calculation
+- Vectorized backtesting function for efficient strategy testing
+- Basic Transaction cost modeling
+- Performance metrics calculation
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🎯 Usage
+## Usage
 
-### Exchange Outflow Strategy
+### Exchange Outflow Risk Overlay
 
-The [`exchange_outflows.py`](exchange_outflows.py) script demonstrates how to turn exchange outflow data into a trading strategy:
+The [`exchange_outflows.py`](exchange_outflows.py) script demonstrates how to turn exchange outflow data into an effective active risk overlay on top of Bitcoin:
 
-- 📤 High outflows might indicate infestor confidence, and reduce the assets available for immediate selling
-- 📥 Low outflows might indicate that crypto assets on exchanges are pilingup
-- 💰 Supports both long-only and long-short strategies
+- High outflows might indicate infestor confidence, and reduce the assets available for immediate selling
+- Low outflows might indicate that crypto assets on exchanges are pilingup
 
 
-## 🔑 API Integration
+## API Integration
 
-The strategy integrates with:
+The repository uses:
 
-- 🏦 Binance API for price data
-- 📊 Unravel Markets API for exchange outflow data. Sign up for live access at [unravel.markets](https://unravel.markets)
+- Unravel Core API to access Predictive Risk Factors. Sign up for live access at [unravel](https://unravel.markets/). Trial API Key included, that provides weekly data for 2022-2024.
+- Binance API for price data
+
 
 ## 📄 License
 
